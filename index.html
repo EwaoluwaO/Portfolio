@@ -1,167 +1,198 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Ewaoluwa Osunrayi</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Data Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">Your Name</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Your Name</span></h1>
+                <p>A Data Analyst & Visualization Enthusiast turning complex data into actionable insights.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/350" alt="Your Profile Picture">
+                </div>
+        </section>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Hi, I'm Ewaoluwa</h1>
-						<p>Unlocking insights, one dataset at a time.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        <section id="about" class="about-section common-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            Hello! I'm <strong>Your Name</strong>, a passionate Data Analyst with a keen eye for detail and a knack for transforming raw data into compelling stories. My journey in data began with [mention brief origin story, e.g., a fascination with patterns, a problem I wanted to solve, etc.].
+                        </p>
+                        <p>
+                            I specialize in [mention 2-3 key areas, e.g., exploratory data analysis, predictive modeling, interactive dashboard design], leveraging tools like Python, R, SQL, and of course, Tableau for impactful visualizations. I thrive on uncovering insights that drive informed decision-making and am always eager to tackle new data challenges.
+                        </p>
+                        <p>
+                            Outside of crunching numbers, I enjoy [mention a personal hobby or interest, e.g., hiking, reading, photography], which helps keep my creativity flowing!
+                        </p>
+                        <a href="your_resume.pdf" class="btn secondary-btn" download>Download Resume <i class="fas fa-download"></i></a>
+                        </div>
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/400x300" alt="About Me Image">
+                        </div>
+                </div>
+            </div>
+        </section>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Ewaoluwa</a>
-					</header>
+        <section id="skills" class="skills-section common-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Data Analysis & Tools</h3>
+                        <ul>
+                            <li><i class="fas fa-chart-line"></i> Exploratory Data Analysis (EDA)</li>
+                            <li><i class="fas fa-brain"></i> Statistical Analysis</li>
+                            <li><i class="fas fa-cogs"></i> Predictive Modeling (basics)</li>
+                            <li><i class="fab fa-python"></i> Python (Pandas, NumPy, Scikit-learn)</li>
+                            <li><i class="fas fa-database"></i> SQL (PostgreSQL, MySQL)</li>
+                            </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Visualization</h3>
+                        <ul>
+                            <li><i class="fas fa-chart-bar"></i> Tableau (Advanced User)</li>
+                            <li><i class="fas fa-chart-pie"></i> Power BI</li>
+                            <li><i class="fab fa-r-project"></i> R (ggplot2)</li>
+                            <li><i class="fas fa-chart-area"></i> Matplotlib & Seaborn</li>
+                            <li><i class="fas fa-palette"></i> Dashboard Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Other / Soft Skills</h3>
+                        <ul>
+                            <li><i class="fas fa-comments"></i> Communication</li>
+                            <li><i class="fas fa-lightbulb"></i> Problem Solving</li>
+                            <li><i class="fas fa-handshake"></i> Collaboration</li>
+                            <li><i class="fas fa-cloud"></i> Cloud Platforms (e.g., AWS S3 - basic)</li>
+                            <li><i class="fas fa-code-branch"></i> Git & GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">About me</a></li>
-							<li><a href="generic.html">Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        <section id="projects" class="projects-section common-section">
+            <div class="container">
+                <h2>My Projects</h2>
 
-				<!-- Main -->
-					<div id="main">
+                <div class="project-card tableau-project">
+                    <h3>Tableau Dashboard: Global Superstore Sales Analysis</h3>
+                    <p>
+                        An interactive dashboard exploring sales, profit, and order data from a global superstore dataset.
+                        Key insights include regional performance, product category trends, and customer segmentation.
+                    </p>
+                    <div class="tableau-embed-container">
+                        <iframe src="https://public.tableau.com/views/GlobalSuperstoreDashboard/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link" width="100%" height="600px" frameborder="0"></iframe>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://public.tableau.com/app/profile/your.name/viz/GlobalSuperstoreDashboard/Dashboard1" target="_blank" class="btn small-btn">View on Tableau Public <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/yourusername/global-superstore-analysis" target="_blank" class="btn small-btn secondary-btn">GitHub Repo <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">About me</a></h2>
-									<p>I am a passionate data analyst with a strong background in data wrangling, data visualization and analysis. </p>
-									<p>Ive been responsible for creating reports using various methods to make sense of data and provide data backed decisions</p>
-									<p>I enjoy working with people and learning new things. I also possess excellent communication and team skills which helps me thrive as a data professional</p>
-								</header>
-								<ul class="actions special">
-									<li><a href="https://www.linkedin.com/in/ewaoluwa/" class="button large">More on LinkedIn</a></li>
-								</ul>
-							</article>
+                <div class="project-card tableau-project">
+                    <h3>Tableau Story: COVID-19 Impact Analysis (Nigeria Focus)</h3>
+                    <p>
+                        A data story investigating the trends and impact of COVID-19 cases and deaths, with a specific focus on Nigeria.
+                        Visualizations highlight daily new cases, vaccination rates, and comparative analysis with other African nations.
+                    </p>
+                    <div class="tableau-embed-container">
+                        <iframe src="https://public.tableau.com/views/COVID-19NigeriaAnalysis/COVIDStory?:language=en-US&:display_count=n&:origin=viz_share_link" width="100%" height="600px" frameborder="0"></iframe>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://public.tableau.com/app/profile/your.name/viz/COVID-19NigeriaAnalysis/COVIDStory" target="_blank" class="btn small-btn">View on Tableau Public <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/yourusername/covid-nigeria-analysis" target="_blank" class="btn small-btn secondary-btn">GitHub Repo <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
 
-						<!-- Posts -->
-						<section class="section skills" data-sr-id="2" style="visibility: visible; opacity: 3; transition: opacity 0.6s cubic-bezier(0.694, 0, 0.335, 1) 0s;">
-							<h2 class="section__title">Tools &amp; Technologies</h2> <div class="section__content">
-								 <p>Here are a few of the tools &amp; technologies that I have experience with:</p>
-								   <div class="skillz"> <div class="skillz__category"> 
-									   <div class="skillz__category__label"><b>Languages</b></div> 
-									   <ul> <li class="skillz__category__item">Python</li>
-											<li class="skillz__category__item">SQL</li>
-									   </ul>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 3 Image (e.g., a screenshot of a Jupyter Notebook)">
+                    <h3>Python Project: Customer Churn Prediction</h3>
+                    <p>Developed a machine learning model using Python (Scikit-learn) to predict customer churn for a telecom company. Achieved X% accuracy.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Case Study/Report <i class="fas fa-file-alt"></i></a>
+                        <a href="https://github.com/yourusername/customer-churn-prediction" target="_blank" class="btn small-btn secondary-btn">GitHub Repo <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
 
-									   </div>
-									   <div class="skillz__category"> 
-										   <div class="skillz__category__label"><b>Tools</b></div> 
-										   <ul>
-											   <li class="skillz__category__item">BigQuery</li>
-											   <li class="skillz__category__item">Spreadsheets</li> 
-											   <li class="skillz__category__item">Power BI/Google Looker/Metabase</li> 
-											   <li class="skillz__category__item">Postman</li>
-											   <li class="skillz__category__item">Apache Airflow</li>
-											   
-										   </ul> 
-									   </div>
-									   </div> <br> </div> </section>
-									   <h2 style="text-align: center; vertical-align: middle">Selected Projects</h2>
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://github.com/EwaoluwaO/8-week-sql-challenge/tree/main/DataMart">Answering Business<br />
-										Questions with SQL</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/datamart.png" alt="" /></a>
-									<p>I used SQL to perform complex queries to analyze and draw insights.
-										This involved cleaning the data, summarizing it and doing a Before-After Analysis to track improvements or declines after a business change. </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/EwaoluwaO/8-week-sql-challenge/tree/main/DataMart" class="button">View</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://public.tableau.com/app/profile/ewaoluwa.osunrayi">Interactive dashboards<br /></a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/Overview.png" alt="" /></a>
-									<p>I am adept at creating dashboards. I have created a vareity of dashboards to track business performance and compare various periods to track performance </p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/ewaoluwa.osunrayi" class="button">View</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://github.com/EwaoluwaO/LastfmListens">Music Listening Stats<br />
-										</a></h2>
-									</header>
-									<a href="https://public.tableau.com/app/profile/ewaoluwa.osunrayi/viz/EwasMusicStatistics2/WHOWHATWHEN" class="image fit"><img src="images/whowhatwhen.png" alt="Listening statistics visualization" /></a>
-									<p>This project involved accessing my music listening history through the <a href="last.fm">Last.fm API</a> using python, joining the data from various endpoints to create a rich dataset, and then visualizing the data on Tableau.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/EwaoluwaO/LastfmListens" class="button">View</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="https://lookerstudio.google.com/s/nRkT4rtSWmM">Coffee Shop Dashboard(Looker Studio)<br />
-										</a></h2>
-									</header>
-									<a href="https://lookerstudio.google.com/s/nRkT4rtSWmM" class="image fit"><img src="images/coffee shop.png" alt="Listening statistics visualization" /></a>
-									<p>This involved creating a dashboard for a coffee shop to track performance and top products to help with stock taking expansion opportunities</p>
-									<ul class="actions special">
-										<li><a href="https://lookerstudio.google.com/s/nRkT4rtSWmM" class="button">View</a></li>
-									</ul>
-								</article>
-							</section>
-					</div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Project 4 Image (e.g., a dashboard screenshot)">
+                    <h3>Interactive Dashboard: Web Analytics (Power BI)</h3>
+                    <p>Designed and implemented an interactive Power BI dashboard to monitor key website performance metrics and user behavior.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank" class="btn small-btn">Live Demo (if hosted) <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/yourusername/web-analytics-dashboard" target="_blank" class="btn small-btn secondary-btn">GitHub Repo <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                </div>
+        </section>
 
-				<!-- Footer -->
-					<footer id="footer">
-							<section>
-								<h3>connect with me</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+        <section id="contact" class="contact-section common-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>I'm always open to discussing new data challenges, collaborative projects, or just connecting with fellow data enthusiasts. Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="mailto:osunrayij6@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i> your.email@example.com
+                    </a>
+                    <a href="https://www.linkedin.com/in/ewaoluwa/" target="_blank" class="contact-item">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/EwaoluwaO" target="_blank" class="contact-item">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://public.tableau.com/app/profile/ewaoluwa.osunrayi/vizzes" target="_blank" class="contact-item">
+                        <i class="fas fa-chart-area"></i> Tableau Public
+                    </a>
+                    </div>
+            </div>
+        </section>
+    </main>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/yourlinkedinprofile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://public.tableau.com/app/profile/your.name" target="_blank" aria-label="Tableau Public"><i class="fas fa-chart-area"></i></a>
+                </div>
+        </div>
+    </footer>
 
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script src="script.js"></script>
+</body>
 </html>
